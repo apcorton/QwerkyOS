@@ -3,9 +3,9 @@
 <image schemaversion="6.8" name="QwerkyOS-TestBuild">
     <description type="system">
         <author>Alasdair Corton</author>
-        <contact>alasdair.corton@st-four.com</contact>
+        <contact>alasdair.corton@mail.com</contact>
         <specification>
-            ST-FOUR Remote Deployment Image
+            Minimal openSUSE 15.2 Image
         </specification>
     </description>
     <profiles>
@@ -48,7 +48,7 @@
     </preferences>
     <users>
         <user pwdformat="plain" password="password123" home="/root" name="root" groups="root"/>
-        <user pwdformat="plain" password="password123" home="/home/lxadmin" name="lxadmin" groups="users,wheel"/>
+        <user pwdformat="plain" password="password123" home="/home/user" name="user" groups="users,wheel"/>
     </users>
     <repository type="rpm-md" alias="kiwi" priority="1">
         <source path="obs://Virtualization:Appliances:Builder/openSUSE_Leap_15.2"/>
