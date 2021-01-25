@@ -116,6 +116,8 @@
     </packages>
     <packages type="oem">
         <package name="gfxboot-branding-openSUSE"/>
+        <package name="dracut-kiwi-oem-repart"/>
+        <package name="dracut-kiwi-oem-dump"/>
     </packages>
     <packages type="bootstrap">
         <package name="udev"/>
